@@ -1,6 +1,6 @@
 # io7 IoT Thermostat
 
-An IO7F32 (Arduino C++) thermostat device: it reads a DHT22 on GPIO17, takes the set temperature from a rotary encoder wired to GPIO44 (A) and GPIO43 (B), shows both on the TFT, and publishes/receives over the io7 MQTT topic spec. The sample targets the LilyGO T-Display-S3 with its built-in TFT — build and upload with PlatformIO (`git clone`, then Build/Upload), and configure Wi-Fi and io7 credentials through the ConfigPortal.
+IO7F32 (Arduino C++) thermostat device with DHT22, rotary encoder and TFT.
 
 See Chapter 12, Section 12.4.2 of the book.
 
